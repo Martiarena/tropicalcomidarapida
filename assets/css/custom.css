@@ -1,0 +1,86 @@
+.header-layout2 .menu-area {
+    /*width: 991px;*/
+}
+
+.header-logo {
+    width: 160px;
+    max-width: 160px;
+    display: block;
+    height: 120px; 
+}
+
+.header-logo a {
+    display: block;
+    position: absolute;
+    top: 50px;
+    background: white;
+    border-radius: 100%;
+    display: block;
+}
+
+.brand-title {
+    z-index: 6;
+}
+
+.header-logo a img {
+    width: 100%;
+    max-width: 160px;
+}
+
+.sticky .header-logo a {
+    top: 0px;
+}
+
+.footer-layout1 {
+    background-position: bottom;
+}
+
+.info-box_text {
+    margin-top: 0em;
+}
+
+.sticky-wrapper.sticky {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.food-menu_img img {
+    border-radius: 100%;
+    margin-right: 0px;
+}
+
+.food-menu_content {
+    width: calc(100% - 250px);
+}
+
+.food-menu {
+    justify-content: space-between;
+}
+
+.mobile-logo img {
+    max-width: 150px;
+}
+
+@media (max-width: 991px) {
+    .header-logo a {
+		position: relative;
+		top: 0px;
+	}
+    .header-logo img {
+		height: 96px;
+	}
+    .header-logo {
+        width: 96px;
+        max-width: 96px;
+    }
+}
+
+@media (max-width: 575px) {
+    .ls-fullscreen-wrapper {
+		padding-top: 8rem;
+	}
+
+	.food-menu_content {
+		width: calc(100% - 100px);
+	}
+}
